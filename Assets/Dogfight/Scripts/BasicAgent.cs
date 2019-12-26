@@ -104,7 +104,7 @@ public class BasicAgent : Agent
     private void CastRays(Vector3 pos)
     {
         const int lmAsteroid = 1 << 8;
-        const int lmAgent = 1 << 8;
+        const int lmAgent = 1 << 9;
         const float range = 40f;
         const float radius = 2f;
         const float proxThresh = 5f;
