@@ -85,7 +85,7 @@ public class AdvancedAgent : BasicAgent
                     hasFrontOpponent = true;
                 }
             }
-            else if (opponents[i].DirDot < 0 && !hasRearOpponent)
+            else if (!hasRearOpponent)
             {
                 oppRear = opponents[i];
                 hasRearOpponent = true;
