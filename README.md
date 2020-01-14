@@ -13,3 +13,6 @@ Each agent can observe the relative positions, orientations and velocities of tw
 ### Shoot and evade
 
 Agents control fire action and get rewarded for hitting opponents. They receive penalties for being hit themselves, as well as for friendly fire and wasting ammo.
+
+Dependencies:  
+https://github.com/Unity-Technologies/ml-agents/releases/tag/0.12.0
